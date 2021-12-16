@@ -1,5 +1,8 @@
-.app {
+.App {
   text-align: center;
+  background-image: url("https://studioghiblimovies.com/wp-content/uploads/2020/03/p08192c7.jpg");
+  height: 100vh;
+  background-size: 100vw;
 }
 
 .Nav {
@@ -25,4 +28,13 @@
   flex-direction: column;
   text-align: center;
   font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
 }
