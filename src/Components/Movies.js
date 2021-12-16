@@ -30,21 +30,24 @@ class Movies extends Component {
       })
       .catch((error) => console.log(error));
   }
-  handleSelect(e) {
+  handleSelect = (e) => {
     console.log(e.target.value);
     if (e.target.value === "") {
       this.setState({ display: "" });
     } else {
-      // console.log(e.target.value);
-      // this.setState({
-      //   display: (
-      //     <div className="display">
-      //       <p>Title: {this.state.movies[e.target.value].title}</p>
-      //     </div>
-      //   ),
-      // });
+      this.setState({
+        display: (
+          <div className="display">
+            <h1>Title: {this.state.movies[e.target.value].title}</h1>
+            <p>
+              Release Date: {this.state.movies[e.target.value].release_date}
+            </p>
+            <p>Description: {this.state.movies[e.target.value].description}</p>
+          </div>
+        ),
+      });
     }
-  }
+  };
   render() {
     return (
       <div className="movies">
