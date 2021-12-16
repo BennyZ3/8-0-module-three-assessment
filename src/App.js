@@ -17,11 +17,11 @@ class App extends Component {
       <div className="App">
         <Nav />
         <main>
-          {/* <Switch>
+          <Switch>
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/movies">
+            {/* <Route path="/movies">
               <Movies />
             </Route>
             <Route path="/people">
@@ -29,8 +29,8 @@ class App extends Component {
             </Route>
             <Route path="/locations">
               <Locations />
-            </Route>
-          </Switch> */}
+            </Route> */}
+          </Switch>
         </main>
       </div>
     );

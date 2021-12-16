@@ -5,8 +5,12 @@
   height: 60px;
   background-color: #7fffd3;
 }
+.Nav a {
+  display: flex;
+  justify-content: center;
+}
 .Nav img {
-  height: 60px;
+  height: 50px;
 }
 
 .Nav div {
