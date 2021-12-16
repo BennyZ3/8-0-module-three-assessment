@@ -31,7 +31,6 @@ class Movies extends Component {
       .catch((error) => console.log(error));
   }
   handleSelect = (e) => {
-    console.log(e.target.value);
     if (e.target.value === "") {
       this.setState({ display: "" });
     } else {
