@@ -17,20 +17,20 @@ class App extends Component {
       <div className="App">
         <Nav />
         <main>
-          <Switch>
+          {/* <Switch>
             <Route exact path="/">
               <Home />
             </Route>
             <Route path="/movies">
               <Movies />
             </Route>
-            <Route path="/peopls">
+            <Route path="/people">
               <People />
             </Route>
             <Route path="/locations">
               <Locations />
             </Route>
-          </Switch>
+          </Switch> */}
         </main>
       </div>
     );
