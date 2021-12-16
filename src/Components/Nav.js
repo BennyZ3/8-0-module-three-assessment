@@ -4,11 +4,14 @@ import "./Nav.css";
 class Nav extends Component {
   render() {
     return (
-      <div className="Nav">
+      <div className="nav">
         <NavLink to="/">
-          <a href="" className="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1280px-Studio_Ghibli_logo.svg.png" />
-          </a>
+          <div className="logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1280px-Studio_Ghibli_logo.svg.png"
+              alt="ghibli logo"
+            />
+          </div>
         </NavLink>
         <Link to="/movies">
           <div id="navMovies">Movies</div>

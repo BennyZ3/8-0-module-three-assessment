@@ -1,3 +1,28 @@
 .app {
   text-align: center;
 }
+
+.Nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 60px;
+  background-color: #7fffd3;
+}
+.Nav a {
+  display: flex;
+  justify-content: center;
+}
+.Nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.Nav div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
