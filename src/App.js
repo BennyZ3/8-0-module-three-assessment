@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Locations from "./Components/Locations";
 import Movies from "./Components/Movies";
-import Nav from "./Components/Nav";
+// import Nav from "./Components/Nav";
 import People from "./Components/People";
 
 class App extends Component {
